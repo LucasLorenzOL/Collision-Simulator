@@ -1,5 +1,5 @@
 width 1280
 height 720
-balls_number 6
+num_balls 6
 radius 50.0f
 CV 1
