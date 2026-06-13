@@ -15,21 +15,23 @@ O arquivo de configurações pode ser encontrado dentro da pasta config, com o n
 
 
 
-- \Largura da janela - `width`  
+- Largura da janela - `width`  
 
 
-- \Altura da janela - `height`
+- Altura da janela - `height`
 
 
-- \Número de bolas - `num_balls`
+- Número de bolas - `num_balls`
 
 
 - Raio das bolas - `radius`  
 
 
-Coeficiente de restituição da velocidade - cv  
+- Coeficiente de restituição da velocidade - `cv`
+
 
 Para modificá-los, basta escrever a palavra chave (mostrada acima) e o valor ao lado. width, height e num_balls aceitam somente valores inteiros, enquanto radius e cv suportam valores reais.
+
 
 > **Se você quiser, também pode inicializar via terminal, usando o seguinte template:**
 
@@ -37,15 +39,24 @@ Para modificá-los, basta escrever a palavra chave (mostrada acima) e o valor ao
 
 
 
--------------------------------------------------------------------------- Extra ----------------------------------------------------------------------------------------------
+
+
+>                                                                      **Extra**
+
+
 
 
 
 O programa mostra também o comportamento da energia cinética ao longo da simulação. O motivo de eu não utilizar a quantidade de movimento (Qm ou P) é devido à colisão entre as bolas e as bordas da janela, onde eu decidi apenas inverter o sentido da velocidade naquele eixo, então quando a bola bate na parede: ΔQm = Qmf - Qmi = m(-v) - mv = -2mv (as colisões entre bola e borda são sempre de CV = 1).
 
+
+
 O código foi compilado usando a extensão CMake e auxílio do sistema Ninja, se houver algum problema ou dúvida na hora de compilar para executar, entre em contato.
 
-> **Usando a extensão CMake, a sequência de comandos foi (considerando que você está na root do projeto)**:
+
+
+> **Usando a extensão CMake, a sequência de comandos foi (considerando que você está na root do projeto):**
+
 
 ``` bash
 mkdir build && cd build
@@ -56,7 +67,10 @@ ninja
 
 ```
 
+
 > **Utilizando o compilador g++, utilize a sequência a seguir (também considerando que você está na root do projeto)**:
+
+
 
 ``` bash
 
@@ -65,6 +79,8 @@ mkdir build && cd build
 g++ -std=c++17 ../src/*.cpp -o SimuladorDeColisoes -lsfml-graphics -lsfml-window -lsfml-system
 
 ```
+
+
 
 > **Para executar:**
 
