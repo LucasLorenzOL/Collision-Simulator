@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
                     configFile >> width;
                 else if(str == "height")
                     configFile >> height;
-                else if(str == "balls_number")
+                else if(str == "num_balls")
                     configFile >> numBalls;
                 else if(str == "radius")
                     configFile >> radius;
