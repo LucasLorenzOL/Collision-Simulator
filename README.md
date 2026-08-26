@@ -4,8 +4,10 @@ RA: 2878518
 
 Esse projeto consiste em gerar uma janela e, baseado nas configurações colocadas, gerar uma quantia X de bolas e simular colisões entre elas.  
 
-*[Sobre o projeto](#sobre-o-projeto)
-*[Compilação e execução](#compilação-execução)
+* [Sobre o projeto](#sobre-o-projeto)
+* [Compilação e execução](#compilacao-execucao)
+
+> **Vídeo explicativo e demonstrativo:**
 
 [![Assistir no YouTube](https://img.youtube.com/vi/V6SmgQayk9c/hqdefault.jpg)](https://www.youtube.com/watch?v=V6SmgQayk9c)
 
@@ -14,7 +16,7 @@ Esse projeto consiste em gerar uma janela e, baseado nas configurações colocad
 
 
 
-##sobre-o-projeto
+## Sobre o projeto
 
 O projeto foi feito utilizando a biblioteca SFML e todo o código fonte está comentado (fiz em inglês porque acho bom já desenvolver esse costume).    
 
@@ -59,7 +61,7 @@ Para modificá-los, basta escrever a palavra chave (mostrada acima) e o valor ao
 -------------------------------------------------------------------------- Extra ------------------------------------------------------------------------------------------------
 
 
-##compilação-execução
+## Compilacao e execucao
 
 
 
