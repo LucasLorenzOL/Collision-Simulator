@@ -4,7 +4,7 @@ RA: 2878518
 
 ## Resumo
 
-Esse projeto consiste em gerar uma janela e, baseado nas configurações colocadas, gerar uma quantia X de bolas e simular colisões entre elas. A simulação é bidimensional utilizando a biblioteca gráfica SMFL em C++ puro. Fórmulas e explicação do código podem ser encontrados [aqui](#video-demonstrativo-e-explicativo-do-projeto).
+  Esse projeto consiste em gerar uma janela e, baseado nas configurações colocadas, gerar uma quantia X de bolas e simular colisões entre elas. A simulação é bidimensional utilizando a biblioteca gráfica SMFL em C++ puro. Fórmulas e explicação do código podem ser encontrados [aqui](#video-demonstrativo-e-explicativo-do-projeto).
 
 
 
