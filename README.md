@@ -4,15 +4,18 @@ RA: 2878518
 
 Esse projeto consiste em gerar uma janela e, baseado nas configurações colocadas, gerar uma quantia X de bolas e simular colisões entre elas.  
 
+> **Sumário**
+
 * [Sobre o projeto](#sobre-o-projeto)
 * [Compilação e execução](#compilacao-execucao)
 
-> **Vídeo explicativo e demonstrativo:**
+  
+
+## Vídeo demonstrativo e explicativo:
 
 [![Assistir no YouTube](https://img.youtube.com/vi/V6SmgQayk9c/hqdefault.jpg)](https://www.youtube.com/watch?v=V6SmgQayk9c)
 
 
--------------------------------------------------- Informações sobre a configuração e execução do projeto -----------------------------------------------------------------------
 
 
 
@@ -58,10 +61,7 @@ Para modificá-los, basta escrever a palavra chave (mostrada acima) e o valor ao
 
 
 
--------------------------------------------------------------------------- Extra ------------------------------------------------------------------------------------------------
-
-
-## Compilacao e execucao
+## Compilação e execução
 
 
 
