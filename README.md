@@ -19,7 +19,11 @@ Esse projeto consiste em gerar uma janela e, baseado nas configurações colocad
 
 ## Vídeo demonstrativo e explicativo do projeto:
 
-[![Assistir no YouTube](https://img.youtube.com/vi/V6SmgQayk9c/hqdefault.jpg)](https://www.youtube.com/watch?v=V6SmgQayk9c)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Vídeo do Projeto">
+  </a>
+</p>
 
 
 
