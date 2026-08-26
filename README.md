@@ -9,19 +9,21 @@ Esse projeto consiste em gerar uma janela e, baseado nas configurações colocad
 
 
 > **Sumário**
-
+  
+  
+  
 * [Sobre o projeto](#sobre-o-projeto)
-* [Compilação e execução](#compilacao-execucao)
+* [Compilação e execução](#compilacao-e-execucao)
 
 
 
   
 
-## Vídeo demonstrativo e explicativo do projeto:
+## Vídeo demonstrativo e explicativo do projeto
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Vídeo do Projeto">
+  <a href="https://www.youtube.com/watch?v=V6SmgQayk9c">
+    <img src="https://img.youtube.com/vi/V6SmgQayk9c/hqdefault.jpg" alt="Vídeo do Projeto">
   </a>
 </p>
 
@@ -64,8 +66,7 @@ Para modificá-los, basta escrever a palavra chave (mostrada acima) e o valor ao
 > **Se você quiser, também pode inicializar via terminal, usando o seguinte template:**
 
 
-
-
+  
 `(caminho até o diretório do programa)/SimuladorDeColisoes width height num_balls radius cv`
 
 
