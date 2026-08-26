@@ -2,16 +2,22 @@ Aluno: Lucas Lorenzo Liberal Pedrosa
 
 RA: 2878518
 
-Esse projeto consiste em gerar uma janela e, baseado nas configurações colocadas, gerar uma quantia X de bolas e simular colisões entre elas.  
+## Resumo
+
+Esse projeto consiste em gerar uma janela e, baseado nas configurações colocadas, gerar uma quantia X de bolas e simular colisões entre elas. A simulação é bidimensional utilizando a biblioteca gráfica SMFL em C++ puro. Fórmulas e explicação do código podem ser encontrados [aqui](#video-demonstrativo-e-explicativo-do-projeto).
+
+
 
 > **Sumário**
 
 * [Sobre o projeto](#sobre-o-projeto)
 * [Compilação e execução](#compilacao-execucao)
 
+
+
   
 
-## Vídeo demonstrativo e explicativo:
+## Vídeo demonstrativo e explicativo do projeto:
 
 [![Assistir no YouTube](https://img.youtube.com/vi/V6SmgQayk9c/hqdefault.jpg)](https://www.youtube.com/watch?v=V6SmgQayk9c)
 
@@ -21,27 +27,28 @@ Esse projeto consiste em gerar uma janela e, baseado nas configurações colocad
 
 ## Sobre o projeto
 
-O projeto foi feito utilizando a biblioteca SFML e todo o código fonte está comentado (fiz em inglês porque acho bom já desenvolver esse costume).    
+O projeto foi feito utilizando a biblioteca SFML e todo o código fonte está comentado.    
 
-O arquivo de configurações pode ser encontrado dentro da pasta config, com o nome de "config.txt". Você pode modificar algumas propriedades do simulador, como:  
+  > ## Configurando
 
-
-
-- Largura da janela - `width`  
+  O arquivo de configurações pode ser encontrado dentro da pasta config, com o nome de "config.txt". Você pode modificar algumas propriedades do simulador, como:  
 
 
-- Altura da janela - `height`
+
+  - Largura da janela - `width`  
 
 
-- Número de bolas - `num_balls`
+  - Altura da janela - `height`
 
 
-- Raio das bolas - `radius`  
+  - Número de bolas - `num_balls`
 
 
-- Coeficiente de restituição da velocidade - `cv`
+  - Raio das bolas - `radius`  
 
-- 
+
+  - Coeficiente de restituição da velocidade - `cv`
+
 
 
 Para modificá-los, basta escrever a palavra chave (mostrada acima) e o valor ao lado. width, height e num_balls aceitam somente valores inteiros, enquanto radius e cv suportam valores reais.
@@ -51,6 +58,9 @@ Para modificá-los, basta escrever a palavra chave (mostrada acima) e o valor ao
 
 
 > **Se você quiser, também pode inicializar via terminal, usando o seguinte template:**
+
+
+
 
 `(caminho até o diretório do programa)/SimuladorDeColisoes width height num_balls radius cv`
 
